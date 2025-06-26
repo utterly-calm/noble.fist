@@ -360,7 +360,7 @@ const Hero = ({ onScrollDown }) => (
           }}
           className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white flex items-center gap-2"
         >
-          Let's Connect{" "}
+          Let&apos;s Connect
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </motion.a>
         <motion.a
@@ -612,9 +612,9 @@ const Contact = () => {
   ];
   return (
     <Section id="contact" className="bg-black">
-      <SectionTitle>Let's Connect</SectionTitle>
+      <SectionTitle>Let&apos;s Connect</SectionTitle>
       <p className="text-center text-xl text-gray-300 max-w-4xl mx-auto mb-16">
-        Ready to bring your next project to life? I'm currently open to new
+        Ready to bring your next project to life? I&apos;m currently open to new
         opportunities and would love to discuss how we can collaborate to build
         something amazing.
       </p>
